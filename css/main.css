@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+.navbar-nav {
+    margin-left: 30vw;
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 1.8em !important;
+    padding-left: 5vw;
+}
+.navbar{
+    padding: 0 !important;
+}
+.navbar-light .navbar-brand {
+    color: rgb(102 58 192) !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    /* color: rgba(0, 0, 0, 0.8) !important; */
+    font-weight: 500;
+}
+.nav-item{
+    font-size: 1.1em;
+    margin-right: 40px;
+}
+.navbar-nav li a:focus,
+.navbar-nav li a:hover {
+      background-color: transparent; 
+      color: rgba(102, 58, 192, 0.8) !important;
+  }
+.custom{
+    color: rgb(102, 58, 192) !important;
+}
+/*
+.box{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+.box h1{
+    position: ab;
+} */
+  
+/* background image */
+.bcg-img{
+    
+    background-image: url('../img/test.png');
+    /* background-color: #ffffff; */
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 999px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-font{
+    font-size: 1em !important;
+    color: #615cfa !important;
+}
+.py-24 {
+    padding-top: 6rem !important;
+}
+.bold-letter{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #181d5f;
+    text-align: left;
+    line-height: 1.5;
+}
+.mb-8.leading-relaxed{
+    padding-right: 5vw;
+}
+.custom-removing {
+    margin-bottom: 0rem!important;
+}
+.more-center{
+    margin-top: 20px;
+    font-size: medium;
+    margin-right: 10vw;
+    text-align: left;
+}
+.left-side{
+    margin-left: 40px;
+}
+.lefty{
+    background-image: linear-gradient(to bottom right,  rgb(102, 58, 192), rgb(0, 153, 255));
+    color: white !important;
+    font-size: smaller !important;
+    font-family: 'Kumbh Sans', sans-serif;
+}
